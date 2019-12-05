@@ -1,0 +1,23 @@
+.socials {
+  @include reset-list;
+
+  max-width: 175px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  box-sizing: border-box;
+
+  &__item {
+    margin: 0 10px;
+  }
+
+  &__item:first-child {
+    margin-left: 0;
+  }
+
+  &__item:last-child {
+    margin-right: 0;
+  }
+}

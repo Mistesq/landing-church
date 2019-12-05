@@ -1,0 +1,23 @@
+.logo {
+
+  &__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  &__info {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &--light {
+    color: $white;
+    max-width: 430px;
+  }
+
+  &--light .logo__title {
+    font-size: 36px;
+    line-height: 44px;
+    color: $white;
+  }
+}

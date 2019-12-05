@@ -1,0 +1,52 @@
+.preview {
+  position: relative;
+
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  background-size: cover;
+  background: url(../img/main_img.jpg) no-repeat center;
+
+}
+
+
+.preview--build {
+  padding-bottom: 70px;
+  min-height: 560px;
+
+  background-size: cover;
+  background: url(../img/build.jpg) no-repeat center;
+
+}
+
+.preview__field {
+  position: absolute;
+  left: 17.8%;
+  top: 75%;
+  max-width: 555px;
+
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: $white;
+}
+
+.preview__field--row {
+  max-width: 360px;
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+.preview__desc {
+  margin: 0;
+  padding: 15px 45px 15px 20px;
+
+  color: $black;
+
+
+}

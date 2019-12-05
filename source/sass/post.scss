@@ -1,0 +1,68 @@
+.container-posts-small {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.post {
+  padding: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  background-color: $white;
+  box-sizing: border-box;
+
+  &__title {
+    color: $black;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  &__wrapper-img {
+    margin-bottom: 20px;
+
+    order: -2;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  &__date {
+    order: -1;
+    margin-bottom: 15px;
+  }
+
+  &__desc {
+    margin: 0;
+    margin: 10px 0 ;
+  }
+
+}
+
+.post__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.post--small {
+  max-width: 275px;
+  margin: 0;
+  border: 0.5px solid $main-color;
+  justify-content: center;
+}
+
+.post--small .post__title {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.post--small .post__button {
+  font-size: 12px;
+  line-height: 24px;
+}

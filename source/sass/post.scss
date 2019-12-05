@@ -32,8 +32,23 @@
   }
 
   &__date {
+    position: relative;
+
+    padding-left: 25px;
     order: -1;
     margin-bottom: 15px;
+
+    text-transform: uppercase;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url("../img/icon-date.png");
+      width: 15px;
+      height: 16px;
+      left: 0px;
+      top: 4px;
+    }
   }
 
   &__desc {
@@ -63,6 +78,22 @@
 }
 
 .post--small .post__button {
+  position: relative;
+
+  padding-left: 25px;
   font-size: 12px;
   line-height: 24px;
+  color: $green;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/icon-btn.png");
+    width: 16px;
+    height: 16px;
+    left: 2px;
+    top: 4px;
+  }
 }

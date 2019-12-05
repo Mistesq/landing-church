@@ -54,9 +54,22 @@ h1, h2 {
   justify-content: space-between;
 }
 
+.grid--mix {
+  flex-direction: row;
+  align-items: stretch;
+}
+
 .col {
   width: 49%;
   padding: 25px 0 60px;
+}
+
+.col--large {
+  width: 60%;
+}
+
+.col--small {
+  width: 32%;
 }
 
 .wrapper {

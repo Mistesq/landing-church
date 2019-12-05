@@ -29,24 +29,27 @@
     color: rgba(255, 255, 255, 0.3);
   }
 
+  &--page {
+    padding: 20px 25px;
+
+    font-size: 16px;
+    line-height: 22px;
+    color: $black;
+
+    border: none;
+  }
+
   &--fill {
-    padding: 15px 40px;
 
     color: $white;
 
     background-color: $green;
   }
 
-  &--page {
-    padding: 20px 25px;
 
-    font-size: 16px;
-    line-height: 22px;
-
-    border: none;
-  }
 
   &--wide {
+    padding: 15px 40px;
     width: 158px;
   }
 

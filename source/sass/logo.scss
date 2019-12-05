@@ -3,11 +3,14 @@
   &__title {
     font-size: 36px;
     line-height: 36px;
+    text-align: center;
   }
 
   &__info {
     font-size: 16px;
     line-height: 24px;
+    font-family: 'Cormorant Infant', serif;
+    text-align: center;
   }
 
   &--light {
@@ -19,5 +22,10 @@
     font-size: 36px;
     line-height: 44px;
     color: $white;
+    text-align: left;
+  }
+
+  &--light .logo__info{
+    text-align: left;
   }
 }

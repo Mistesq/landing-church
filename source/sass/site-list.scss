@@ -37,3 +37,36 @@
     color: $green;
   }
 }
+
+@media (max-width: 1170px) {
+  .site-list__item {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 925px) {
+  .site-list {
+    flex-direction: row;
+    padding: 0 20px 0 20px;
+
+  }
+
+  .page-footer .site-list {
+    flex-direction: column;
+  }
+
+  .site-list__item {
+    font-size: 26px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 762px) {
+  .site-list {
+    flex-direction: column;
+
+  }
+}

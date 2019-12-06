@@ -46,7 +46,10 @@
 @media (max-width: 900px) {
   .page-footer .page-footer__box-head {
     flex-direction: column;
-    align-items: center;
+  }
+
+  .page-footer .page-footer__menu {
+    margin-bottom: 20px;
   }
 
   .page-footer__container-soc {

@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Храм Саввы Сторожевского</title>
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant:300i,400,600,700|PT+Sans&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -53,17 +56,33 @@
   </header>
 
   <main class="page-main">
-    <article class="preview">
-      <img src="" alt="" class="preview__img">
+        <div class="preview">
+            <div class="slider">
+              <div class="preview__field">
+                <b class="preview__caption">Дорогие братья и сестры</b>
+                <p class="preview__desc">
+                  Приглашаем Вас каждое воскресенье в 13.00 на молебен о строительстве Храма преподобного Саввы Сторожевского. Молебен служится на месте строительства по адресу: пл. Викторио Кодовильи, вл. 1 напротив бывшего кинотеатра “Енисей”
+                </p>
+              </div>
 
-        <div class="preview__field">
-          <b class="preview__caption">Дорогие братья и сестры</b>
-          <p class="preview__desc">
-            Приглашаем Вас каждое воскресенье в 13.00 на молебен о строительстве Храма преподобного Саввы Сторожевского. Молебен служится на месте строительства по адресу: пл. Викторио Кодовильи, вл. 1 напротив бывшего кинотеатра “Енисей”
-          </p>
-        </div>
+              <div class="preview__field">
+                <b class="preview__caption">Дорогие сестры и братья </b>
+                <p class="preview__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque velit veritatis, ea voluptates, sapiente explicabo illo exercitationem vitae incidunt atque quia itaque voluptatibus ex a quo? Amet aperiam, magni.
+                </p>
+              </div>
 
-    </article>
+              <div class="preview__field">
+                <b class="preview__caption">Дорогие сестры и братья </b>
+                <p class="preview__desc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque velit veritatis, ea voluptates, sapiente explicabo illo exercitationem vitae incidunt atque quia itaque voluptatibus ex a quo? Amet aperiam, magni.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
 
     <div class="container">
       <div class="col">
@@ -224,21 +243,25 @@
         </div>
 
         <div class="pagination">
-          <div class="slider">
-            <div class="slider__item button button--page button--fill">
+          <div class="pagination__list">
+            <div class="pagination__item button button--page button--fill">
               1
             </div>
-            <div class="slider__item button button--page">
+            <div class="pagination__item button button--page">
               2
             </div>
-            <div class="slider__item button button--page">
+            <div class="pagination__item button button--page">
               3
             </div>
-            <div class="slider__item button button--page">
+            <div class="pagination__item button button--page">
               4
             </div>
-            <div class="slider__item button button--page">
+            <div class="pagination__item button button--page">
               5
+            </div>
+            ...
+            <div class="pagination__item button button--page">
+              12
             </div>
           </div>
         </div>
@@ -347,5 +370,7 @@
     </div>
 
   </footer>
+
+ <script src="js/main.js"></script>
 </body>
 </html>

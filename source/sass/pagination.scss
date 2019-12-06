@@ -1,3 +1,26 @@
+
+
 .pagination {
+  position: relative;
   padding: 0 25px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/icon-arr-left.png");
+    width: 7px;
+    height: 11px;
+    left: 0px;
+    top: 25px;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/icon-arr-right.png");
+    width: 7px;
+    height: 11px;
+    right: 105px;
+    top: 25px;
+  }
 }

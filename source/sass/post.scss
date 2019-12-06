@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items:  center;
+  justify-content: center;
+
 }
 
 .post {
@@ -61,6 +64,7 @@
 .post__container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
 }
@@ -70,6 +74,7 @@
   margin: 0;
   border: 0.5px solid $main-color;
   justify-content: center;
+  flex-shrink: 1;
 }
 
 .post--small .post__title {

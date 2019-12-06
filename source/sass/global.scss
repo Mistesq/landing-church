@@ -75,3 +75,17 @@ h1, h2 {
 .wrapper {
   padding: 0 25px;
 }
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #fff;
+}
+
+@media (max-width: 830px) {
+  .grid, .container {
+    flex-direction: column;
+  }
+
+  .col {
+    width: 100%;
+  }
+}
